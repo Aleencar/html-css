@@ -1,0 +1,18 @@
+#container {
+    background-color: blueviolet;
+    height: 97vh;
+    position: relative;
+
+}
+
+#conteudo {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
