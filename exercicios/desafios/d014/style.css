@@ -1,0 +1,35 @@
+table {
+    height: 300px;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+div {
+    overflow: auto;
+}
+
+thead > tr > th {
+    background-color: rgb(87, 87, 86);
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+colgroup > col {
+    text-align: center;
+}
+
+.destaque {
+    background-color: rgb(87, 87, 86);
+}
+
+tr.destaque > th {
+    text-align: left;
+    color: white;
+}
+
+#cor {
+    color: white;
+}
