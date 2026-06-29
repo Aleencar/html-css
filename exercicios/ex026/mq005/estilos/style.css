@@ -20,21 +20,20 @@ header > h1 {
 }
 
 menu {
-    display: none;
+  display: none;
 }
 
 #menu-card {
-    background-color: #0c6ace3d;
-    display: block;
-    text-align: center;
-    padding: 8px;
-    border-radius: 10px;
+  background-color: #0c6ace3d;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 #menu-card:hover {
-    background-color:  #0c6acead;
+  background-color: #0c6acead;
 }
-
 
 a {
   font-weight: 500;
@@ -50,24 +49,23 @@ a {
 }
 
 a:hover {
-    background-color:  #0c6acead ;
+  background-color: #0c6acead;
 }
 
 main {
-
-    background-color:  #0c6ace3d;
-    width: 90vw;
-    margin: 12px auto;
-    padding: 12px;
-    border-radius: 10px;
+  background-color: #0c6ace3d;
+  width: 90vw;
+  margin: 12px auto;
+  padding: 12px;
+  border-radius: 10px;
 }
 
 article h2 {
-    padding-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 article p {
-    text-indent: 12px;
-    text-align: justify;
-    margin-bottom: 12px;
+  text-indent: 12px;
+  text-align: justify;
+  margin-bottom: 12px;
 }
