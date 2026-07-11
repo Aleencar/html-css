@@ -22,6 +22,9 @@
             text-align: center;
             border: 1px solid black;
             padding: 10px;
+
+            flex-shrink: 0;
+            flex-grow: 1;
         }
 
          .container2 {
@@ -29,35 +32,44 @@
 
             display: flex;
             flex-flow: row  wrap;
-
-            justify-content: center;
             align-content: center;
+        
             height: 400px;
             margin-top: 20px;
         }
 
         .item2 {
+
             background-color: white;
             border: 1px solid black;
             padding: 50px;
             text-align: center;
 
+            
         }
+
+        .item#item1 {
+        
+            flex-shrink: 1;
+            flex-grow: 2;
+        }
+
+        
     </style>
 <body>
     <div class="container">
-        <div class="item" style="order: 3; align-self: stretch;">A</div>
-        <div class="item">B</div>
-        <div class="item" style="align-self: flex-start;">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
+        <div class="item" id="item1">A</div>
+        <div class="item" id="item2">B</div>
+        <div class="item" id="item3">C</div>
+        <div class="item" id="item4">D</div>
+        <div class="item" id="item5">E</div>
     </div>
     <div class="container2">
-        <div class="item2">A</div>
-        <div class="item2">B</div>
-        <div class="item2" style="flex-basis: 200px;">C</div>
-        <div class="item2">D</div>
-        <div class="item2" style="flex-basis: 350px;">E</div>
+        <div class="item2" id="item1">A</div>
+        <div class="item2" id="item2">B</div>
+        <div class="item2" id="item3">C</div>
+        <div class="item2" id="item4">D</div>
+        <div class="item2" id="item5">E</div>
     </div>
 </body>
 </html>
