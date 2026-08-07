@@ -5,9 +5,7 @@
     grid-template-columns: 100px 35% 2fr ;*/
     grid-auto-flow: row;
     gap: 10px;
-    align-items: normal;
-    justify-items: normal;
-    align-content: space-around;
+
 
     
 
@@ -23,21 +21,16 @@
 }
 
 #box1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-area: 1 / 1 / span 1 / span 4
+    
 }
 
 #box2 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-area: 2 / 1 / span 2 / span 2 
+    /* row-star / column-star / row-end / column-end */
   
 }
 
 #box3 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: -1;
+    grid-area: 2 / 3 / span 2 / span 2;
 }
